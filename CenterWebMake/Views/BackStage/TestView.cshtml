@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="test"></div>
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    $.ajax({
+        url: "./test",
+        dataType: "json",
+        type: "post",
+        async: false,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            var test;
+            $.each(data, function (i, obj) {
+                test = $(
+                    '<div>' + obj.ContentText + '</div>'+
+                    '<div>' + obj.Title + '</div>'
+                    );
+                $("#test").append(test);
+            });
+        }
+    });
+    </script>
+</body>
+</html>

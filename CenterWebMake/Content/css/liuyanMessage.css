@@ -1,0 +1,31 @@
+.upnews-LM{width: 100%;height: 60px;}
+.xiaoxizhongxin-LM{width: 150px;margin-left: 10px;padding: 20px 0 ;height: 100%}
+.images-LM{float: left}
+.word-LM{
+    font-size: 15px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 1px
+}
+.line-LM{
+    width: 95%;
+    margin-left: 20px;
+    height: 2px;
+    background: #D4D4D4;
+;}
+.biaoge-LM{width: 95%;margin-left: 20px;margin-top:20px;border: 1px solid #D4D4D4;}
+.list-LM{width:40%;height: 50px;display: block}
+.xiaoxi1--LM{width:20%;height: 100%;float: left ;font-size: 15px;font-weight: bold;margin-left: 5px;margin-right: 15px;}
+.xiaoxi2--LM{width:20%;height: 100%;float: left; font-size:15px;font-weight: bold;margin-right: 15px;}
+.xiaoxi3--LM{width:20%;height: 100%;float: left;font-size:15px;font-weight: bold }
+.biaogeArea-LM1{width:95%;min-height:80px;margin-left: 10px;border: 1px solid #D4D4D4;margin-bottom: 10px; }
+.diyige-LM{width: 50%;height: 40px;padding-left: 10px}
+.dierge-LM{width: 30%;padding-left: 10px}
+.disange-LM{width: 20%;padding-left: 10px}
+.messagetitle-LM{width: 100%;height: 40px;cursor: pointer;padding: 8px;}
+a{display: block}
+a:hover{background: #A0C5E8}
+.datamessage-LM{padding-left: 10px}
+.namemessage-LM{padding-left: 10px}
+.biaogeArea-LM2{display:none;width:95%;min-height:80px;margin-left: 10px;border: 1px solid #D4D4D4;margin-bottom: 10px;}
+.biaogeArea-LM3{display:none;width:95%;min-height:80px;margin-left: 10px;border: 1px solid #D4D4D4;margin-bottom: 10px;}

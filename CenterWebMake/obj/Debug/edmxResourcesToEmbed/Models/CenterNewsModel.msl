@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CenterWebDatabaseModel1StoreContainer" CdmEntityContainer="CenterWebDatabaseEntities1">
+    <EntitySetMapping Name="CenterNewsCreate">
+      <EntityTypeMapping TypeName="CenterWebDatabaseModel1.CenterNewsCreate">
+        <MappingFragment StoreEntitySet="CenterNewsCreate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ContentText" ColumnName="ContentText" />
+          <ScalarProperty Name="IsPublich" ColumnName="IsPublich" />
+          <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="CenterWebDatabaseModel1.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Creater" ColumnName="Creater" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

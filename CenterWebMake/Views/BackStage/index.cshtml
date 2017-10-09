@@ -1,0 +1,461 @@
+﻿@model CenterWebMake.ViewModels.Class17cs
+@{
+    ViewBag.Title = "CN";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta charset="UTF-8">
+    <title>地理信息空间技术与应用重点实验室</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="shortcut icon" href="http://s01.mifile.cn/favicon.ico" type="image/x-icon">
+    <link href="~/Content/css/index.css" rel="stylesheet" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- 下面是顶时间显示 -->
+    <div class="touding">
+        <div class="td">
+            <div class="tdlan">
+                <span class="sj">欢迎来到地理信息空间技术与应用重点实验室! <span></span>.<span></span>.<span></span></span>
+            </div>
+        </div>
+        <!-- 下面是3个图片 -->
+        @foreach (var item in Model.PhotoControl.Where(w => w.Type == "BagTitle").OrderByDescending(o => o.ID).Take(1))
+        {
+            <img class="photo" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+            break;
+        }
+    </div>
+    <!-- 下面是导航栏 -->
+    <div class="main">
+        <div class="zuobian">
+            <img class="photo1" src="/images/u2.png">
+        </div>
+        <div class="zhongjianbufeng">
+            <div class="daohang">
+                <ul class="nav5 clearfix">
+                    <li class="m">
+                        <h3><a target="_blank" href="#">首页</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">实验室介绍</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">新闻动态</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">研究队伍</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">科学研究</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">文化交流</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">资源共享</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">联系我们</a></h3>
+                    </li>
+                </ul>
+            </div>
+            <!-- 下面是新闻图片设计 -->
+            <div class="diyihang">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        @foreach (var item in Model.PhotoControl.Where(w => w.Type == "CenterNews").OrderByDescending(o => o.ID).Take(6))
+                        {
+                            <img src="@Html.DisplayFor(modelItem => item.LoadPosition)" class="item first">
+                        }
+                        @*<img src="@Model.LoadPosition" alt="img" />*@
+                    </div>
+                    <div class="carousel-btn">
+                        <div class="left-Title">
+                            @foreach (var item in Model.PhotoControl.Where(w => w.Type == "CenterNews").OrderByDescending(o => o.ID).Take(6))
+                            {
+
+                                <p class="Titlenews">@Html.DisplayFor(modelItem => item.Title)</p>
+
+                            }
+                        </div>
+                        <div class="right-BUTTON">
+                            <a href="javascript:" class="btn active"><p>1</p></a>
+                            <a href="javascript:" class="btn"><p>2</p></a>
+                            <a href="javascript:" class="btn"><p>3</p></a>
+                            <a href="javascript:" class="btn"><p>4</p></a>
+                            <a href="javascript:" class="btn"><p>5</p></a>
+                            <a href="javascript:" class="btn"><p>6</p></a>
+                        </div>
+                    </div>
+                    <a class="prev" href="javascript:void(0)"></a>
+                    <a class="next" href="javascript:void(0)"></a>
+                </div>
+                <!-- 下面是中心新闻栏目设计 -->
+                <div class="zhongxingxinwen">
+                    <div class="pd">
+                        <ul>
+                            <li class="s0">
+                                <h3>中心新闻</h3>
+                            </li>
+                            <li class="s00">
+                                <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gd">
+                        <ul>
+                            @foreach (var item in Model.CenterNewsCreate.OrderByDescending(s => s.ID).Take(7))
+                            {
+                                var titleSub6 = item.Title;
+                                if (titleSub6.Length > 20)
+                                {
+                                    titleSub6 = titleSub6.Substring(3, 20) + "...";
+                                }
+                                <li><span class="date">@Html.DisplayFor(modelItem => item.PublishDate)</span><a href="TemplateViews?id=@item.ID&type=News" target="_blank">@titleSub6</a></li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <div class="tongzhigonggao">
+                    <div class="pd">
+                        <div class="s0-pd">
+                            <h3>实验室简介</h3>
+                        </div>
+                    </div>
+                    <div class="tznr">
+                        @foreach (var item in Model.Labintroduce.OrderByDescending(s => s.ID).Take(1))
+                        {
+                            var titleSub = item.ContentText;
+                            if (titleSub.Length > 110)
+                            {
+                                titleSub = titleSub.Substring(3, 110) + "...";
+                            }
+                            <h10 class="h10style">&emsp;&ensp;@titleSub<span><a href="TemplateViews?id=@item.ID&type=Lab" target="_blank">详细内容</a></span></h10>
+
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="dierlang">
+                <div class="tupian">
+                    @foreach (var item in Model.PhotoControl.Where(s => s.Type == "ContentIcon").OrderByDescending(m => m.ID).Take(1))
+                    {
+
+                        <img class="photo4" src="@Html.DisplayFor(modelitem => item.LoadPosition)">
+                        break;
+
+                    }
+                </div>
+                <div class="word">
+                    <div class="pd1">
+                        <h3>搜索</h3>
+                    </div>
+                </div>
+                <div class="sousuo">
+                    <div class="search-box fl">
+                        <form action="#">
+                            <input type="text" class="fl search-text" placeholder="Search here...">
+                            <button class="fl search-btn">
+                                <i class="iconfont icon-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="tubiao">
+                    @foreach (var item in Model.PhotoControl.Where(s => s.Type == "SmartRightIcon").OrderByDescending(o => o.ID).Take(1))
+                    {
+                        <img class="photo5" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                        break;
+                    }
+                </div>
+                @*<img class="photo5" src="/images/图标.png">*@
+            </div>
+            <div class="disanlang">
+                <div class="fourphoto">
+                    <div class="firstphoto">
+                        <div class="shiyanshijianjie">
+                            <ul>
+                                <li class="s0">
+                                    <h3>通知公告</h3>
+                                </li>
+                                <li class="s01">
+                                    <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fgd">
+                            <ul>
+                                @foreach (var item in Model.Notice.OrderByDescending(s => s.ID).Take(7))
+                                {
+                                    var titleSub3 = item.Title;
+                                    if (titleSub3.Length > 20)
+                                    {
+                                        titleSub3 = titleSub3.Substring(0, 20) + "...";
+                                    }
+                                    <li><span class="date">@Html.DisplayFor(modelItem => item.PublishDate)</span><a href="TemplateViews?id=@item.ID&type=NOTICE" target="_blank">@titleSub3</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="secondphoto">
+                        <div class="chengguogonggao">
+                            <ul>
+                                <li class="s1">
+                                    <h3>成果公告</h3>
+                                </li>
+                                <li class="s11">
+                                    <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sgd">
+                            <ul>
+                                @foreach (var item in Model.AchievementShow.OrderByDescending(s => s.ID).Take(7))
+                                {
+                                    var titleSub = item.Title;
+                                    if (titleSub.Length > 20)
+                                    {
+                                        titleSub = titleSub.Substring(0, 20) + "...";
+                                    }
+                                    <li><span class="date">@Html.DisplayFor(modelItem => item.PublishDate)</span><a href="TemplateViews?id=@item.ID&type=AMTshow" target="_blank">@titleSub</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="thirdphoto">
+                        <div class="xueshujiaoliu">
+                            <ul>
+                                <li class="s2">
+                                    <h3>学术交流</h3>
+                                </li>
+                                <li class="s21">
+                                    <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tgd">
+                            <ul>
+                                @foreach (var item in Model.AcademicExchange.OrderByDescending(s => s.ID).Take(7))
+                                {
+                                    var titleSub1 = item.Title;
+                                    if (titleSub1.Length > 20)
+                                    {
+                                        titleSub1 = titleSub1.Substring(0, 20) + "...";
+                                    }
+                                    <li><span class="date">@Html.DisplayFor(modelItem => item.PublishDate)</span><a href="TemplateViews?id=@item.ID&type=AEC" target="_blank">@titleSub1</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fourthphoto">
+                        <div class="wenhuahuodong">
+                            <ul>
+                                <li class="s3">
+                                    <h3>文化活动</h3>
+                                </li>
+                                <li class="s31">
+                                    <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hgd">
+                            <ul>
+                                @foreach (var item in Model.Culturalexchanges.OrderByDescending(s => s.ID).Take(7))
+                                {
+                                    var titleSub2 = item.Title;
+                                    if (titleSub2.Length > 20)
+                                    {
+                                        titleSub2 = titleSub2.Substring(0, 20) + "...";
+                                    }
+                                    <li><span class="date">@Html.DisplayFor(modelItem => item.PublishDate)</span><a href="TemplateViews?id=@item.ID&type=CActive" target="_blank">@titleSub2</a></li>
+
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightdisanlan">
+                    <div class="weiboweixing">
+                        @foreach (var item in Model.PhotoControl.Where(s => s.Type == "weixin").OrderByDescending(O => O.ID).Take(1))
+                        {
+                            <img class="weixing" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                            break;
+                        }
+                        @foreach (var item in Model.PhotoControl.Where(s => s.Type == "weibo").OrderByDescending(O => O.ID).Take(1))
+                        {
+                            <img class="weibo" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                            break;
+                        }
+                        @*<img class="weixing" src="/images/微信号.png">
+                            <img class="weibo" src="/images/微博.png">*@
+                    </div>
+                    <div class="shehuizhuyi">
+                        @foreach (var item in Model.PhotoControl.Where(s => s.Type == "PropagandaRightIcon").OrderByDescending(O => O.ID).Take(1))
+                        {
+
+                            <img class="hexing" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                            break;
+
+                        }
+                        @*<img class="hexing" src="/images/社会主义.jpg">*@
+                    </div>
+                    <div class="liuyanzixun">
+                        <a href="https://www.baidu.com" target="_Self"><img class="zixuntupian" src="/images/留言咨询.gif"></a>
+                    </div>
+                    <div class="lingdaoxinxiang">
+                        <a href="https://www.baidu.com" target="_blank"><img class="xinxiangtupian" src="/images/领导信箱.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="disilan">
+                <div class="picMarquee-left">
+                    <div class="hd">
+                        <ul>
+                            <li class="s4">
+                                <h3>团队风采</h3>
+                            </li>
+                            <li class="s41">
+                                <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+                        <ul class="picList">
+                            @foreach (var item in Model.PhotoControl.Where(s => s.Type == "TeamActive").OrderByDescending(o => o.ID).Take(6))
+                            {
+                                <li>
+                                    <div class="pic">
+                                        <a href="TemplateViews?id=@item.ID&type=photo" target="_blank">
+                                            <img src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                                        </a>
+                                    </div>
+                                    <div class="title">
+                                        <a href="#" target="_blank">
+                                            @Html.DisplayFor(modelItem => item.Title)
+                                        </a>
+                                    </div>
+                                </li>
+                            }
+                            @*<li>
+                                    <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="/images/pic2.jpg" /></a></div>
+                                    <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图2</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="/images/pic3.jpg" /></a></div>
+                                    <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图3</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="/images/pic4.jpg" /></a></div>
+                                    <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图4</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="/images/pic5.jpg" /></a></div>
+                                    <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图5</a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href="http://www.SuperSlide2.com" target="_blank"><img src="/images/pic6.jpg" /></a></div>
+                                    <div class="title"><a href="http://www.SuperSlide2.com" target="_blank">效果图6</a></div>
+                                </li>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="diwulan">
+                <div class="picMarquee-left">
+                    <div class="hd">
+                        <ul>
+                            <li class="s5">
+                                <h3>成果展示</h3>
+                            </li>
+                            <li class="s51">
+                                <a href="#" target="_blank"><img class="gengduo" src="/images/更多.gif" alt="更多"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+                        <ul class="picList">
+                            @foreach (var item in Model.PhotoControl.Where(s => s.Type == "AchievemetDisplay").OrderByDescending(o => o.ID).Take(6))
+                            {
+                                <li>
+                                    <div class="pic">
+                                        <a href="#" target="_blank">
+                                            <img src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                                        </a>
+                                    </div>
+                                    <div class="title">
+                                        <a href="#" target="_blank">
+                                            @Html.DisplayFor(modelItem => item.Title)
+                                        </a>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="diliulan">
+                <div class="youqinglianjie">
+                    <div class="ll">
+                        <ul>
+                            <li class="sp">
+                                <h3 class="sp1"> 友情链接</h3>
+                            </li>
+                            <li class="p">
+                                <h3><a class="p1" target="_blank" href="#">青海省地理信息中心</a></h3>
+                            </li>
+                            <li class="p">
+                                <h3><a class="p1" target="_blank" href="#">青海省测绘局</a></h3>
+                            </li>
+                            <li class="p">
+                                <h3><a class="p1" target="_blank" href="#">国家测绘地理信息局</a></h3>
+                            </li>
+                            <li class="p">
+                                <h3><a class="p1" target="_blank" href="#">青海省国土资源厅</a></h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img class="youbian" src="/images/u2.png">
+        </div>
+    </div>
+    <div class="footpart">
+        <div class="upfp">
+            <div class="depart">
+                <h3 class="depart1">欢迎来到青海省地理空间信息技术与应用重点实验室</h3>
+            </div>
+            <div class="depart2">
+                <div class="depart3">
+                    <span><a class="depart4" target="_blank" href="#">关于我们</a></span>
+                    <span class="depart5">|</span>
+                    <span><a class="depart6" target="_blank" href="#">联系我们</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="downfp">
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="/js/js.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery1.42.min.js"></script>
+    <script src="/js/main.js" type="text/javascript"></script>
+    <script src="/js/holder.min.js" type="text/javascript"></script>
+</body>
+</html>

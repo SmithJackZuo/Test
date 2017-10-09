@@ -1,0 +1,136 @@
+﻿@model CenterWebMake.ViewModels2.Class19cs
+@{
+    ViewBag.Title = "CN";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta charset="UTF-8">
+    <title>地理信息空间技术与应用重点实验室</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="shortcut icon" href="http://s01.mifile.cn/favicon.ico" type="image/x-icon">
+    <link href="~/Content/css/TemplateCss.css" rel="stylesheet" />
+    <link href="~/Content/css/index.css" rel="stylesheet" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- 下面是顶时间显示 -->
+    <div class="touding">
+        <div class="td">
+            <div class="tdlan">
+                <span class="sj">欢迎来到地理信息空间技术与应用重点实验室! <span></span>.<span></span>.<span></span></span>
+            </div>
+        </div>
+        <!-- 下面是3个图片 -->
+        @*@foreach(var item in Model.PhotoControl.Where(w => w.Type == "BagTitle").OrderByDescending(o => o.ID).Take(1))
+            {
+                <img class="photo" src="@Html.DisplayFor(modelitem => item.LoadPosition)" />
+                break;
+            }*@
+        @*<img class="photo" src="@Model.PhotoControl.LoadPosition " />*@
+    </div>
+    <!-- 下面是导航栏 -->
+    <div class="main1">
+        <div class="zhongjianbufeng1">
+            <div class="daohang">
+                <ul class="nav5 clearfix">
+                    <li class="m">
+                        <h3><a target="_blank" href="#">首页</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">实验室介绍</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">新闻动态</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">研究队伍</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">科学研究</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">文化交流</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">资源共享</a></h3>
+                    </li>
+                    <li class="s"></li>
+                    <li class="m">
+                        <h3><a target="_blank" href="#">联系我们</a></h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="left-Content">
+                <div class="position-Lf">
+                    <div class="nav-path fr">
+                        您当前的位置：
+                        <a href="#">首页</a>>
+                        <a href="#">科学研究</a>>
+                        <a href="#">科研成果</a>
+                    </div>
+                </div>
+                <div class="Content-Template">
+                    <div class="Area-Template">
+                        <h2 align="center">
+                            @Model.Title
+                        </h2>
+                        <div class="Time-Template">
+                            <span class="Article-source">文章来源：青海省基础地理信息中心</span>
+                            &nbsp; &nbsp;
+                            <span class="Time-Pubulish">时间：@Model.PublishDate</span>
+                        </div>
+                        <div class="cont">
+                            <p>
+                                @Html.Raw(@Model.ContentText)                               
+                            </p>
+                            <div class="cont1">
+                                <img src="@Html.DisplayFor(model => model.LoadPosition)" />
+                             </div>
+                        </>
+                    </div>
+                    <div class="bottom-close">
+                        <div class="Content-bottom">
+                            <span><a class="Return-top" href="#"> 【返回顶部】</a></span>
+                            <span><a class="Close-Page" href="#"> 【关闭本页】</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footpart">
+        <div class="upfp">
+            <div class="depart">
+                <h3 class="depart1">欢迎来到青海省地理空间信息技术与应用重点实验室</h3>
+            </div>
+            <div class="depart2">
+                <div class="depart3">
+                    <h3><a class="depart4" target="_blank" href="#">关于我们</a></h3>
+                    <h3 class="depart5">|</h3>
+                    <h3><a class="depart6" target="_blank" href="#">联系我们</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="downfp">
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="/js/js.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery1.42.min.js"></script>
+    <script src="/js/main.js" type="text/javascript"></script>
+    <script src="/js/holder.min.js" type="text/javascript"></script>
+</body>
+</html>

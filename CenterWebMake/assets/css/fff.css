@@ -1,0 +1,19 @@
+.layui-nav-item{margin: 0 10px; line-height: 65px;}
+.header-demo .layui-nav .layui-nav-item a {
+    color: #999;
+}
+.admin-header-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.layui-nav * {
+    font-size: 14px;
+}
+.admin-header-user .layui-nav-more {
+    top: 33px;
+}
+.layui-anim-upbit {
+    -webkit-animation-name: layui-upbit;
+    animation-name: layui-upbit;
+}

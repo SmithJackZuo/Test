@@ -1,0 +1,88 @@
+﻿body {
+   
+}
+.left-Content {
+    width:100%;
+    float: left;
+}
+.position-Lf {
+    float:left;
+    line-height: 40px;
+    padding-left: 15px;
+    height: 46px;
+    font-size: 12px;
+    overflow: hidden;
+    width: 100%;
+}
+.Content-Template{
+    float: left;
+    width:100%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-top: 3px solid #0075c4;
+}
+.Area-Template {
+    margin-top:30px;
+    min-height:500px;
+    padding: 0 20px;
+}
+.Area-Template h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px 0;
+    border-bottom: #ddd 1px solid;
+    color: #000084;
+}
+.Time-Template{
+
+    height:20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Article-source {
+    font-size: 12px;
+    color: #000;
+}
+.cont {
+    padding: 30px 30px;
+    line-height: 28px;
+    font-size: 14px;
+    overflow: hidden;
+    min-height: 800px;
+}
+.cont p{
+    text-indent: 2em;
+}
+.cont1 {
+    text-align:center
+}
+.cont img {
+       text-align:center
+    }
+.main1 {
+    width: 100%;  
+    float: left;
+    background:#DFEDF6;
+}
+.zhongjianbufeng1 {
+    width: 76%;
+    margin-left: 12%;
+}
+.bottom-close {
+height:50px;
+width:100%;
+background: #2ead90;
+}
+.Content-bottom {
+   float: right;
+    width: 30%;
+    padding: 15px;
+    margin-right: 30px;
+    text-align: right;
+}
+.Return-top {
+font-size:15px;
+}
+.Close-Page {
+font-size:15px;
+}

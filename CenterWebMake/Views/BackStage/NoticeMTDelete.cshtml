@@ -1,0 +1,413 @@
+﻿@model CenterWebMake.Models.Notice
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+    <link href="~/Content/css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">通知公告删除</h4>
+    </div>
+    <div class="modal-body">
+        @using (Html.BeginForm("NoticeMTDelete1", "BackStage", FormMethod.Post, new { @class = "jjj" }))
+        {
+            @Html.AntiForgeryToken()
+            <table>
+                <tr style="height:50px;display:none">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.ID)</td>
+                    <td class="MD-td1">@Html.EditorFor(model => model.ID, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.Title)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.Title, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.PublishDate)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.PublishDate, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.CreateUser)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.CreateUser, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.CreateDate)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.CreateDate, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.UpdateDate)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.UpdateDate, new { @class = "form-control" }) </td>
+                </tr>
+                <tr style="height:50px;">
+                    <td class="MD-td">@Html.DisplayNameFor(model => model.IsPublich)</td>
+                    <td class="MD-td1">@Html.DisplayFor(model => model.IsPublich, new { @class = "form-control" }) </td>
+                </tr>
+
+            </table>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="submit" class="btn btn-primary">确认删除</button>
+            </div>
+        }
+    </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                initTable();
+                initTable1();
+                initTable2();
+                initTable3();
+                initTable4();
+            });
+
+            function ShootingTimeProcess(value) {
+                var d = new Date(parseInt(value.replace(/\D/igm, "")));
+                return d.getFullYear() + '-' + (+d.getMonth() + 1) + '-' + d.getDate();
+            }
+
+            function OpenNav() {
+                if ($(".tpl-header-switch-button span").html() == "展开") {
+                    document.getElementById("zhankai").style.width = "1350px";
+                    $(".tpl-header-switch-button span").html("关闭");
+                } else {
+                    document.getElementById("zhankai").style.width = "1104px";
+                    $(".tpl-header-switch-button span").html("展开");
+                }
+
+            }
+            function initTable() {
+                $('#table').bootstrapTable({
+                    method: 'post',
+                    dataType: "json",
+                    contentType: "application/x-www-form-urlencoded",
+                    url: "./temp",
+                    queryParamsType: "limit",
+                    editable: true,
+                    showPaginationSwitch: true,
+                    pagination: true,
+                    pageNumber: 1,
+                    pageSize: 5,
+                    pageList: [10, 25, 50, 100],
+                    striped: true,
+                    cache: false,
+                    striped: true,
+                    search: true,
+                    showRefresh: true,
+                    minimumCountColumns: 2,
+                    smartDisplay: true,
+                    singleSelect: false,
+                    columns: [{
+                        checkbox: true
+                    }, {
+                        field: 'ID',
+                        title: '序号'
+                    }, {
+                        field: 'Title',
+                        title: '标题'
+                    }, {
+                        field: 'CreateUser',
+                        title: '创建人'
+                    }, {
+                        field: 'PublishDate',
+                        title: '发布日期'
+                    }, {
+                        field: 'CreateDate',
+                        title: '创建日期'
+                    }, {
+                        field: 'UpdateDate',
+                        title: '更新时间'
+                    }, {
+                        field: 'IsPublich',
+                        title: '是否发布'
+                        //}, {
+                        //    field: "operate",
+                        //    title: "操作",
+                        //    align: "center",
+                        //    valign: "middle",
+                        //    formatter: function (value, row, index) {
+                        //        return "<button class='Button-test btn btn-primary btn-lg' onclick='test()'>编辑</button>&nbsp;&nbsp;&nbsp;<a href='#' >删除</a>";
+                        //    },
+                        //    clickToSelect: function () {
+                        //        console.log("硕大说法");
+                        //    }
+                    }]
+                });
+            }
+            function initTable1() {
+                $('#table1').bootstrapTable({
+                    method: 'post',
+                    dataType: "json",
+                    contentType: "application/x-www-form-urlencoded",
+                    url: "./achieve",
+                    queryParamsType: "limit",
+                    editable: true,
+                    showPaginationSwitch: true,
+                    pagination: true,
+                    pageNumber: 1,
+                    pageSize: 5,
+                    pageList: [10, 25, 50, 100],
+                    striped: true,
+                    cache: false,
+                    striped: true,
+                    search: true,
+                    showRefresh: true,
+                    minimumCountColumns: 2,
+                    smartDisplay: true,
+                    singleSelect: false,
+                    columns: [{
+                        checkbox: true
+                    }, {
+                        field: 'ID',
+                        title: '序号'
+                    }, {
+                        field: 'Title',
+                        title: '标题'
+                    }, {
+                        field: 'CreateUser',
+                        title: '创建人'
+                    }, {
+                        field: 'PublishDate',
+                        title: '发布日期'
+                    }, {
+                        field: 'CreateDate',
+                        title: '创建日期'
+                    }, {
+                        field: 'UpdateDate',
+                        title: '更新时间'
+                    }, {
+                        field: 'IsPublich',
+                        title: '是否发布'
+                        //}, {
+                        //    field: "operate",
+                        //    title: "操作",
+                        //    align: "center",
+                        //    valign: "middle",
+                        //    formatter: function (value, row, index) {
+                        //        return "<button class='Button-test btn btn-primary btn-lg' onclick='test()'>编辑</button>&nbsp;&nbsp;&nbsp;<a href='#' >删除</a>";
+                        //    },
+                        //    clickToSelect: function () {
+                        //        console.log("硕大说法");
+                        //    }
+                    }]
+                });
+            }
+            function initTable2() {
+                $('#table2').bootstrapTable({
+                    method: 'post',
+                    dataType: "json",
+                    contentType: "application/x-www-form-urlencoded",
+                    url: "./academic",
+                    queryParamsType: "limit",
+                    editable: true,
+                    showPaginationSwitch: true,
+                    pagination: true,
+                    pageNumber: 1,
+                    pageSize: 5,
+                    pageList: [10, 25, 50, 100],
+                    striped: true,
+                    cache: false,
+                    striped: true,
+                    search: true,
+                    showRefresh: true,
+                    minimumCountColumns: 2,
+                    smartDisplay: true,
+                    singleSelect: false,
+                    columns: [{
+                        checkbox: true
+                    }, {
+                        field: 'ID',
+                        title: '序号'
+                    }, {
+                        field: 'Title',
+                        title: '标题'
+                    }, {
+                        field: 'CreateUser',
+                        title: '创建人'
+                    }, {
+                        field: 'PublishDate',
+                        title: '发布日期'
+                    }, {
+                        field: 'CreateDate',
+                        title: '创建日期'
+                    }, {
+                        field: 'UpdateDate',
+                        title: '更新时间'
+                    }, {
+                        field: 'IsPublich',
+                        title: '是否发布'
+                        //}, {
+                        //    field: "operate",
+                        //    title: "操作",
+                        //    align: "center",
+                        //    valign: "middle",
+                        //    formatter: function (value, row, index) {
+                        //        return "<button class='Button-test btn btn-primary btn-lg' onclick='test()'>编辑</button>&nbsp;&nbsp;&nbsp;<a href='#' >删除</a>";
+                        //    },
+                        //    clickToSelect: function () {
+                        //        console.log("硕大说法");
+                        //    }
+                    }]
+                });
+            }
+            function initTable3() {
+                $('#table3').bootstrapTable({
+                    method: 'post',
+                    dataType: "json",
+                    contentType: "application/x-www-form-urlencoded",
+                    url: "./cultural",
+                    queryParamsType: "limit",
+                    editable: true,
+                    showPaginationSwitch: true,
+                    pagination: true,
+                    pageNumber: 1,
+                    pageSize: 5,
+                    pageList: [10, 25, 50, 100],
+                    striped: true,
+                    cache: false,
+                    striped: true,
+                    search: true,
+                    showRefresh: true,
+                    minimumCountColumns: 2,
+                    smartDisplay: true,
+                    singleSelect: false,
+                    columns: [{
+                        checkbox: true
+                    }, {
+                        field: 'ID',
+                        title: '序号'
+                    }, {
+                        field: 'Title',
+                        title: '标题'
+                    }, {
+                        field: 'CreateUser',
+                        title: '创建人'
+                    }, {
+                        field: 'PublishDate',
+                        title: '发布日期'
+                    }, {
+                        field: 'CreateDate',
+                        title: '创建日期'
+                    }, {
+                        field: 'UpdateDate',
+                        title: '更新时间'
+                    }, {
+                        field: 'IsPublich',
+                        title: '是否发布'
+                        //}, {
+                        //    field: "operate",
+                        //    title: "操作",
+                        //    align: "center",
+                        //    valign: "middle",
+                        //    formatter: function (value, row, index) {
+                        //        return "<button class='Button-test btn btn-primary btn-lg' onclick='test()'>编辑</button>&nbsp;&nbsp;&nbsp;<a href='#' >删除</a>";
+                        //    },
+                        //    clickToSelect: function () {
+                        //        console.log("硕大说法");
+                        //    }
+                    }]
+                });
+            }
+            function initTable4() {
+                $('#table4').bootstrapTable({
+                    method: 'post',
+                    dataType: "json",
+                    contentType: "application/x-www-form-urlencoded",
+                    url: "./noticess",
+                    queryParamsType: "limit",
+                    editable: true,
+                    showPaginationSwitch: true,
+                    pagination: true,
+                    pageNumber: 1,
+                    pageSize: 5,
+                    pageList: [10, 25, 50, 100],
+                    striped: true,
+                    cache: false,
+                    striped: true,
+                    search: true,
+                    showRefresh: true,
+                    minimumCountColumns: 2,
+                    smartDisplay: true,
+                    singleSelect: false,
+                    columns: [{
+                        checkbox: true
+                    }, {
+                        field: 'ID',
+                        title: '序号'
+                    }, {
+                        field: 'Title',
+                        title: '标题'
+                    }, {
+                        field: 'CreateUser',
+                        title: '创建人'
+                    }, {
+                        field: 'PublishDate',
+                        title: '发布日期'
+                    }, {
+                        field: 'CreateDate',
+                        title: '创建日期'
+                    }, {
+                        field: 'UpdateDate',
+                        title: '更新时间'
+                    }, {
+                        field: 'IsPublich',
+                        title: '是否发布'
+                        //}, {
+                        //    field: "operate",
+                        //    title: "操作",
+                        //    align: "center",
+                        //    valign: "middle",
+                        //    formatter: function (value, row, index) {
+                        //        return "<button class='Button-test btn btn-primary btn-lg' onclick='test()'>编辑</button>&nbsp;&nbsp;&nbsp;<a href='#' >删除</a>";
+                        //    },
+                        //    clickToSelect: function () {
+                        //        console.log("硕大说法");
+                        //    }
+                    }]
+                });
+            }
+            //$("#table").click(function () {
+            //    var seletContent = $('#table').bootstrapTable('getSelections')[0];
+            //    //if (typeof (selectContent) == 'undefined') {
+            //    //    console.log(false);
+            //    //} else
+            //    //{
+            //    //    console.log(true);
+            //    //}
+            //    //if (typeof (selectContent) == 'undefined') {
+            //    //    return false;
+            //    //} else {
+            //    //    return true;
+
+            //    //}
+            //    console.log(seletContent);
+            //})
+        </script>
+        <script type="text/javascript">
+            function test() {
+                var seletContent = $('#table').bootstrapTable('getSelections')[0];
+                if (typeof (seletContent) != 'undefined') {
+                    buttonId = seletContent.ID;
+                    $.ajax({
+                        url: "./Editor?id=" + buttonId,
+                        dataType: "html",
+                        type: "post",
+                        async: false,
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        success: function (data) {
+                            $("#MD-content").empty();
+                            $("#MD-content").append($(data));
+                        }
+                    });
+                    $("#tlipTest").click();
+                }
+            };
+        </script>
+</body>
+</html>

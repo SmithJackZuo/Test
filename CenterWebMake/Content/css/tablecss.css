@@ -1,0 +1,48 @@
+.body,body{width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0}
+a:hover{text-decoration:none;}
+.nav22{background: #2ec386}
+.diyihang{width: 100%;height: 28px;padding: 10px 20px;border: 1px solid #ccc ;background: #efefef}
+.order{display: inline-block;margin-right:20px;font-size: 15px }
+.label-BS{margin-right:10px;}
+.sousuo{width: 60px;height: 25px;margin-right: 10px;cursor: pointer;background: #e8e8e8;border: 1px solid #ccc}
+.chongzhi{width: 60px;height: 25px;cursor: pointer;background: #e8e8e8;border: 1px solid #ccc}
+.biao{width: 100%;max-height:300px;margin-top: 10px;padding: 10px;}
+.biaoge{width: 100%;background-color:#efefef;height: 100%;border: 3px solid #3c838e;}
+.biao tr{background-color: #ffffff;border: 3px solid #3c838e;}
+.biao td{border: 3px solid #3c838e;height: 45px}
+.biao th{border: 3px solid #3c838e;height: 25px}
+.anniu{width: 30px;height: 25px}
+input[type=checkbox], input[type=radio] {
+    margin: 5px;
+    line-height: normal;}
+.xiuhao-BS{width: 40px;}
+.title-BS{width: 300px;}
+.creator-BS{width: 100px}
+.publishdate--BS{width: 150px}
+.updater-BS{width: 100px}
+.update-BS{width: 150px}
+.ispubulish-BS{width: 60px}
+.operation-BS{width: 150px}
+.bianji-BS{text-decoration:none;margin-left: 20px;}
+.shanchu-BS{text-decoration:none;margin-left: 60px;}
+
+
+
+.layui-edge {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -3px;
+    cursor: pointer;
+    border-width: 6px;
+    border-top-color: #c2c2c2;
+    border-top-style: solid;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    border-style: dashed;
+    border-color: transparent;
+}

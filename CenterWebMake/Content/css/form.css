@@ -1,0 +1,61 @@
+a:hover{text-decoration:none;}
+a {
+    text-decoration: none!important;
+}
+.tpl-content-wrapper1{ transition: all 0.4s ease-in-out;
+    position: absolute;
+    top:56px;
+    right: 0;
+    width: 1104px;
+    z-index: 1101;
+    min-height: 922px;
+    border-bottom-left-radius: 3px;
+    background: #ffffff}
+.toubu{width: 100%;height: 100px;background-color: #424b4f}
+.tb-Create{position: absolute;top:20px;left: 20px;width: 500px;height: 60px}
+.tb-Create-Content{padding: 2px}
+.am-icon-home1:before {
+    content: "\f015";}
+.sizeheight{font-size: 40px;color: #be2924}
+.ContentCenterNews{width: 100%;}
+.form1{width: 100%;height: 50px;margin-top: 30px;}
+.formlabelname1{
+    float: left;
+    padding: 9px 15px;
+    width: 150px;
+    text-align: center;
+    height: 100%;
+}
+.titleRecieve{
+    font-size: large;
+}
+.formeditor1{float: left;
+    width: 500px;
+    height: 50px;
+    padding: 9px 15px;
+    background: #fff;
+}
+.formeditor2{float: left;
+    width:80%;
+    height: 400px;
+    padding: 9px 15px;
+    background: #fff;
+}
+.ContentTitle{
+    border: 1px solid#e6e6e6;
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px
+}
+.checkboxposition
+{
+    height: 100%;
+    width: 30px;
+    margin: 4px 0 0 200px;
+    line-height: normal;
+}
+.Createbuttonarea{width: 100%;float: left;height: 50px;margin-top: 10px;
+    margin-bottom: 20px}
+.CB-area{margin-left:150px;height: 100% ;width: 40%;text-align: center}
+.CB-button{height: 100%;width: 80px;border: 1px solid #e6e6e6;border-radius: 3px;background: #5FB8B3}

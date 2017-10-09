@@ -1,0 +1,369 @@
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\csc.exe
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\System.Collections.Immutable.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\System.Reflection.Metadata.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\vbc.exe
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\VBCSCompiler.exe
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\roslyn\VBCSCompiler.exe.config
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\CenterWebMake.dll.config
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\CenterWebMake.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\CenterWebMake.pdb
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Antlr3.Runtime.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\EntityFramework.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\EntityFramework.SqlServer.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Google.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Web.Infrastructure.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Newtonsoft.Json.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Helpers.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Mvc.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Optimization.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Razor.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.Deployment.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.Razor.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\WebGrease.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Helpers.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Mvc.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Optimization.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.Razor.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.Deployment.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\System.Web.WebPages.Razor.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Antlr3.Runtime.pdb
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Newtonsoft.Json.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\EntityFramework.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\EntityFramework.SqlServer.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Google.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.dll
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.pdb
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.Migrations.w.resources
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.csproj.GenerateResource.Cache
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.Migrations.d.resources
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.Migrations.r.resources
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.csprojResolveAssemblyReference.cache
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.Migrations.eerr.resources
+D:\visual studio 2015\Projects\CenterWebMake\CenterWebMake\obj\Debug\CenterWebMake.Migrations.jjjj.resources
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\csc.exe
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Collections.Immutable.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Reflection.Metadata.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\vbc.exe
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe.config
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll.config
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.pdb
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Web.Infrastructure.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Owin.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\WebGrease.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.pdb
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.dll
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.pdb
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.Migrations.DFDFEE.resources
+D:\visual studio 2015\Projects\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.csproj.GenerateResource.Cache
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\csc.exe
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Collections.Immutable.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Reflection.Metadata.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\vbc.exe
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe
+D:\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe.config
+D:\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll.config
+D:\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.pdb
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Web.Infrastructure.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Owin.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\WebGrease.dll
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.pdb
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.Migrations.DFDFEE.resources
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.csproj.GenerateResource.Cache
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.dll
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.pdb
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.Migrations.addType.resources
+D:\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.csprojResolveAssemblyReference.cache
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\csc.exe
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Collections.Immutable.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\System.Reflection.Metadata.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\vbc.exe
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\roslyn\VBCSCompiler.exe.config
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll.config
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\CenterWebMake.pdb
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Web.Infrastructure.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Owin.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\PagedList.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\PagedList.Mvc.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\WebGrease.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\PagedList.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\PagedList.Mvc.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Helpers.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Mvc.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Optimization.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.Razor.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Deployment.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\System.Web.WebPages.Razor.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Antlr3.Runtime.pdb
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Newtonsoft.Json.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\EntityFramework.SqlServer.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Google.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.csprojResolveAssemblyReference.cache
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.Migrations.DFDFEE.resources
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.Migrations.addType.resources
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.csproj.GenerateResource.Cache
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.dll
+D:\后台备份\CenterWebMake - BackStage\CenterWebMake\obj\Debug\CenterWebMake.pdb
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\csc.exe
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\System.Collections.Immutable.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\System.Reflection.Metadata.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\vbc.exe
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\VBCSCompiler.exe
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\roslyn\VBCSCompiler.exe.config
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\CenterWebMake.dll.config
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\CenterWebMake.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\CenterWebMake.pdb
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Antlr3.Runtime.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\EntityFramework.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\EntityFramework.SqlServer.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Google.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Web.Infrastructure.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Newtonsoft.Json.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Owin.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\PagedList.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\PagedList.Mvc.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Helpers.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Mvc.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Optimization.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Razor.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.Deployment.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.Razor.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\WebGrease.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\PagedList.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\PagedList.Mvc.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Helpers.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Mvc.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Optimization.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.Razor.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.Deployment.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\System.Web.WebPages.Razor.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Antlr3.Runtime.pdb
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Newtonsoft.Json.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\EntityFramework.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\EntityFramework.SqlServer.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.Core.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Facebook.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Cookies.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.OAuth.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Google.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.Twitter.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.csprojResolveAssemblyReference.cache
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.dll
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.pdb
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.Migrations.jydrjy.resources
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.csproj.GenerateResource.Cache
+D:\后台备份\CenterWebMake - BackStage1\CenterWebMake\obj\Debug\CenterWebMake.Migrations.dfhrh.resources
