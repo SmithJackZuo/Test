@@ -946,6 +946,7 @@
     <Content Include="Views\BackStage\TemplateViews.cshtml" />
     <Content Include="Views\BackStage\LabintroduceMT.cshtml" />
     <Content Include="Views\BackStage\LabintroduceMTDelete.cshtml" />
+    <Content Include="Views\BackStage\View1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
